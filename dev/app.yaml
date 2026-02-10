@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: devops-e2e-app
+spec:
+  selector:
+    matchLabels:
+      app: devops-e2e-app
+  template:
+    metadata:
+      labels:
+        app: devops-e2e-app
+    spec:
+      containers:
+        - name: app
+          image: sachinkumarhp230/devops-e2e-app:PLACEHOLDER
+          ports:
+            - containerPort: 8080

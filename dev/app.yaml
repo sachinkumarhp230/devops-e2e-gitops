@@ -13,6 +13,6 @@ spec:
     spec:
       containers:
         - name: app
-          image: sachinkumarhp230/devops-e2e-app:PLACEHOLDER
+          image: sachinkumarhp230/devops-e2e-app:17
           ports:
             - containerPort: 8080

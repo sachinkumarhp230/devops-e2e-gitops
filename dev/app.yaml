@@ -16,3 +16,5 @@ spec:
           image: sachinkumarhp230/devops-e2e-app:17
           ports:
             - containerPort: 8080
+      imagePullSecrets:
+        - name: dockerhub-secret

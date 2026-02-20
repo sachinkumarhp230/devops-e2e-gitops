@@ -119,3 +119,8 @@ This repository is part of a production-style DevOps platform designed to demons
 - Automated image promotion
 - Clean separation of CI, CD, and infrastructure
 - Reproducible Kubernetes deployments
+
+## ArgoCD page
+
+![Uploading image.png…]()
+

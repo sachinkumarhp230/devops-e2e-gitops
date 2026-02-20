@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: sachinaws751/devops-e2e-app:18
+          image: sachinkumarhp230/devops-e2e-app:19
           ports:
             - containerPort: 8080
       imagePullSecrets:

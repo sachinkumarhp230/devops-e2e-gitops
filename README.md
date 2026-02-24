@@ -121,6 +121,6 @@ This repository is part of a production-style DevOps platform designed to demons
 - Reproducible Kubernetes deployments
 
 ## ArgoCD page
+<img width="1916" height="957" alt="Argo-CD" src="https://github.com/user-attachments/assets/67e5b56c-24f7-4167-ae6e-b8271dcb09ad" />
 
-![Uploading image.png…]()
 

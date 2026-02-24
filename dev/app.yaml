@@ -2,7 +2,10 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: devops-e2e-app
+  labels:
+    app: devops-e2e-app
 spec:
+  replicas: 2
   selector:
     matchLabels:
       app: devops-e2e-app
